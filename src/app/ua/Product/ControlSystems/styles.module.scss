@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+
+$primary-color: #000;
+$secondary-color: #FFD600;
+$text: #fff;
+$active: #D9D9D9;
+$subtitle: #FF7A00;
+
+.container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 50px auto;
+}
+.span {
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.link {
+    color: $primary-color;
+}
+.title {
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.subtitle {
+    font-family: 'Montserrat', serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+.text {
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+// OlList
+
+.olmenu {
+    padding: 0;
+    margin: 30px 20px;
+}
+.ollist {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #000 solid 3px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+// UlList
+.menu {
+    margin: 50px 0 50px 50px;
+}
+.list {
+    list-style: square;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+}
+.secondLevel {
+    list-style: none;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+}
+
+// Table
+.table {
+    font-family: 'Montserrat', serif;
+    width: 100%;
+
+    margin: 50px 0;
+}
+.secondtable {
+    font-family: 'Montserrat', serif;
+    width: 70%;
+
+    margin: 50px 0;
+}
+.thirdtable {
+    font-family: 'Montserrat', serif;
+    width: 50%;
+
+    margin: 50px 0;
+}
+.tableActiveMain {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: $active;
+
+    border: 1px solid #000;
+}
+.tableActiveSubmain {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: $active;
+
+    border: 1px solid #000;
+}
+.tableunactive {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 40px;
+
+    border: 1px solid #000;
+}
+
+// Span
+.statement {
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(47, 255, 68, 0.8);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/statement.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
+.question {
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(47, 252, 255, 0.496);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/question.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
+.exclamacion {
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(247, 171, 49, 0.184);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/exclamacion.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
