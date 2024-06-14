@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import style from "./styles.module.scss";
+import Head from "next/head";
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -15,6 +16,14 @@ export default function RootLayout({
   }>) {
   return (
     <html lang="ua">
+      <Head>
+        <link
+            rel="icon"
+            href="/icon.png"
+            type="image/<generated>"
+            sizes="32x32"
+        />
+      </Head>
       <body className={style.container}>
         <header className={style.box}>
                 <h2 className={style.title}>Оберіть мову | Выберете язык | Choose the language</h2>

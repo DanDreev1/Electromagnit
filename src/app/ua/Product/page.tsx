@@ -9,7 +9,7 @@ export default function Product() {
             <ul className={style.menu}>
                 <li className={style.list}>
                     <Link href="Product/Electromagnit" className={style.link}>
-                        <Image className={style.image} src='/Product1.jpg' alt='electromagnets for sheet steel' width={500} height={300}></Image>
+                        <Image className={style.image} src='/Product1.jpg' alt='electromagnets for sheet steel' width={500} height={300} priority></Image>
                         <div className={style.info}>
                             <h3>Електромагніти</h3>
                             <p>Електромагніти – потужні інструменти для вашого бізнесу! Створюючи магнітне поле при подачі електричного струму, вони забезпечують ефективне піднесення та переміщення вантажів, що робить вашу роботу швидкою та безпечною. З їхньою допомогою ви можете оптимізувати виробничі процеси, збільшити продуктивність і знизити витрати. Надійні, гнучкі та керовані – електромагніти відкривають нові можливості для вашого бізнесу.</p>

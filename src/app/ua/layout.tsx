@@ -55,7 +55,7 @@ export default async function Layout({
             <div className={style.container}>
                 <div className={style.margin}>
                     <Image src="/Logo.png" alt="Logo ElectroMagnit" width={200} height={500} className={style.footerLogo}  />
-                    <p className={style.copyright}>©2024 рік усі права захищені <br /><Link href="https://t.me/DaniilAndrieievUK">Створив сайт: Данііл Андрєєв</Link></p>
+                    <p className={style.copyright}>©2024 рік усі права захищені <br /><Link href="mailto:daniilandrieiev788@gmail.com">Створив сайт: Данііл Андрєєв</Link></p>
                 </div>
                 <div className={style.margin}>
                     <h2 className={style.title}>Контакти:</h2>
