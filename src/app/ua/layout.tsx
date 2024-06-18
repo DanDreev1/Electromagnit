@@ -3,6 +3,7 @@ import Loading from "./loading";
 import { Suspense } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { montserrat } from "../utils/fonts";
 
 // Придется заморочится с шрифтами
 
@@ -100,7 +101,7 @@ export default async function Layout({
 
   return (
     <html lang="uk">
-      <body>
+      <body className={`${montserrat}`}>
         <Header></Header>
         <Suspense fallback={<Loading />}>{children}</Suspense>
         <Footer></Footer>
