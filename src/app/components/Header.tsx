@@ -5,6 +5,7 @@ import Link from "next/link";
 import style from "./header.module.scss"
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { montserrat } from "../utils/fonts";
 
 const navLinks = [
     {name: "Головна", href: "/ua/Main"},
@@ -34,7 +35,7 @@ export default function Header() {
                                     <li className={style.list} key={link.name}>
                                         <Link 
                                             href={link.href}
-                                            className={isActive ? style.activeLink : style.link}
+                                            className={isActive ? `${montserrat} ${style.activeLink}` : `${montserrat} ${style.link}` }
                                         >
                                             {link.name}
                                         </Link>
@@ -75,8 +76,8 @@ export default function Header() {
                                 )}
                             </button>
                         </div>
-                        <span className={style.questions}>З питаннями дзвоніть:<br />+4471234567890</span>
-                        <span className={style.language}><Link className={style.languageLink} href="#">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                        <span className={`${montserrat} ${style.questions}`}>З питаннями дзвоніть:<br />+4471234567890</span>
+                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="#">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
                     </div>
                 </div>
                 {isClick && (
@@ -90,7 +91,7 @@ export default function Header() {
                                         <li className={style.listBurger} key={link.name}>
                                             <Link 
                                                 href={link.href}
-                                                className={isActive ? style.activeLink : style.link}
+                                                className={isActive ? `${montserrat} ${style.activeLink}` : `${montserrat} ${style.link}`}
                                             >
                                                 {link.name}
                                             </Link>
@@ -99,8 +100,8 @@ export default function Header() {
                                 })}   
                             </ul>
                             <div className="flex flex-col content-center flex-wrap items-center pb-10">
-                                <span className={style.questionsBurger}>З питаннями дзвоніть:<br />+4471234567890</span>
-                                <span className={style.languageBurger}><Link className={style.languageLink} href="#">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                                <span className={`${montserrat} ${style.questionsBurger}`}>З питаннями дзвоніть:<br />+4471234567890</span>
+                                <span className={`${montserrat} ${style.languageBurger}`}><Link className={style.languageLink} href="#">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
                             </div>
                         </div>
                     </div>

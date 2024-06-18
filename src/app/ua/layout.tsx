@@ -4,6 +4,8 @@ import { Suspense } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+// Придется заморочится с шрифтами
+
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
