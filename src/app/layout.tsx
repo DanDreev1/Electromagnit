@@ -30,8 +30,8 @@ export default function RootLayout({
                 <h2 className={style.title}>Оберіть мову | Выберете язык | Choose the language</h2>
                 <div className={style.flex}>
                     <Link href="../../../../ua/Main" className={style.language}>Українська</Link>
-                    <Link href="" className={style.language}>Русский</Link>
-                    <Link href="" className={style.language}>English</Link>
+                    <Link href="../../../../ru/Main" className={style.language}>Русский</Link>
+                    <Link href="../../../../en/Main" className={style.language}>English</Link>
                 </div>
             </header>
         <div>{children}</div>
