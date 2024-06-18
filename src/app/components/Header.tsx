@@ -26,7 +26,7 @@ export default function Header() {
             <div className={style.container}>
                 <div className={style.main}>
                     <div className={style.main}>
-                        <Image className={style.logo} src="/Logo.png" alt="Logo Electromagnit" width={250} height={100}/>
+                        <Image className={style.logo} src="/Logo.png" alt="Logo Electromagnit" width={250} height={100} loading="eager" priority/>
                         <ul className={style.menu}>
                             {navLinks.map((link) => {
                                 const isActive = pathName.startsWith(link.href)

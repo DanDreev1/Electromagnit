@@ -97,7 +97,7 @@ export default async function Home() {
                             <p>Electromagnit - це розробка вантажних електромагнітів, що охоплює ринки СНГ і Європи.</p>
                             <Link className={styles.button} href="../ua/Contacts">Зв'яжіться з нами</Link>
                         </div>
-                        <Image className={styles.image} src='/HeroImg.jpg' alt='electromagnets for sheet steel' width={500} height={200} priority></Image>
+                        <Image className={styles.image} src='/HeroImg.jpg' alt='electromagnets for sheet steel' width={500} height={200} loading="eager" priority></Image>
                     </div>
                 </div>
             </section>
@@ -117,7 +117,7 @@ export default async function Home() {
                     <ul className={styles.offerFlex}>
                         <li>
                             <div className={styles.boxContainer}>
-                                <Image src='/electromagnet.jpg' alt="Electromagnet image" width={275} height={205}></Image>
+                                <Image src='/electromagnet.jpg' alt="Electromagnet image" width={275} height={205} loading="eager"></Image>
                                 <h3>Електромагніти</h3>
                                 <p>Постачання вантажопідйомних електромагнітів різної конфігурації</p>
                                 <Link className={styles.learn} href="../../../ua/Product/Electromagnit">Щоб дізнатися більше</Link>
@@ -125,7 +125,7 @@ export default async function Home() {
                         </li>
                         <li>
                             <div className={styles.boxContainer}>  
-                                <Image src='/control-system.jpg' alt="Control System image" width={275} height={205}></Image>
+                                <Image src='/control-system.jpg' alt="Control System image" width={275} height={205} loading="eager"></Image>
                                 <h3>Системи керування</h3>
                                 <p>Системи керування електромагнітами: генераторні, на базі перетворювачів ПН-500</p>
                                 <Link className={styles.learn} href="../../../ua/Product/ControlSystems">Щоб дізнатися більше</Link>
@@ -133,7 +133,7 @@ export default async function Home() {
                         </li>
                         <li>
                             <div className={styles.boxContainer}>
-                                <Image src='/Iron-separators.jpg' alt="Iron Separators image" width={275} height={205}></Image>
+                                <Image src='/Iron-separators.jpg' alt="Iron Separators image" width={275} height={205} loading="eager"></Image>
                                 <h3>Залізовідділювачі</h3>
                                 <p>Залізовідділювачі магнітні різних серій з детальними характеристиками та детальним описом.</p>
                                 <Link className={styles.learn} href="../../../ua/Product/IronSeparators">Щоб дізнатися більше</Link>
@@ -141,7 +141,7 @@ export default async function Home() {
                         </li>
                         <li>
                             <div className={styles.boxContainer}>
-                                <Image src='/Repair.jpg' alt="Repair And Production image" width={275} height={205}></Image>
+                                <Image src='/Repair.jpg' alt="Repair And Production image" width={275} height={205} loading="eager"></Image>
                                 <h3>Ремонт та виготовлення</h3>
                                 <p>Сервісне обслуговування електромагнітів та їх запчастин. Виготовимо на замовлення шестірні і т.д.</p>
                                 <Link className={styles.learn} href="../../../ua/Product/RepairAndManufacture">Щоб дізнатися більше</Link>
@@ -173,7 +173,7 @@ export default async function Home() {
                             <h3>Відгук директора виробничої компанії</h3>
                             <p>'Ми придбали вантажопідйомний електромагніт серії EMG-117-32/A для нашого заводу, і я повинен сказати, що це перевершило наші очікування. Цей електромагніт забезпечує надійний підйомний пристрій для важких заготовок. Дякуємо за високоякісний продукт та відмінне обслуговування!'</p>
                             <div className={styles.boxFlex}>
-                                <Image src="/Person1.png" alt="First client" width={125} height={125}></Image>
+                                <Image src="/Person1.png" alt="First client" width={125} height={125} loading="eager"></Image>
                                 <span>Олексій Бєлов</span>
                             </div>
                         </li>
@@ -181,7 +181,7 @@ export default async function Home() {
                             <h3>Головний інженер автомобільного заводу</h3>
                             <p>'Ми придбали вантажопідйомний електромагніт серії EMG-117-32/A для нашого заводу, і я повинен сказати, що це перевершило наші очікування. Цей електромагніт забезпечує надійний підйомний пристрій для важких заготовок. Дякуємо за високоякісний продукт та відмінне обслуговування!'</p>
                             <div className={styles.boxFlex}>
-                            <Image src="/Person2.png" alt="Second client" width={125} height={125}></Image>
+                            <Image src="/Person2.png" alt="Second client" width={125} height={125} loading="eager"></Image>
                                 <span>Денис Смирнов</span>
                             </div>
                         </li>
@@ -189,7 +189,7 @@ export default async function Home() {
                             <h3>Відгук директора компанії 'МЕТАЛОПРОМ'</h3>
                             <p>'Ми придбали вантажопідйомний електромагніт серії EMG-117-32/A для нашого заводу, і я повинен сказати, що це перевершило наші очікування. Цей електромагніт забезпечує надійний підйомний пристрій для важких заготовок. Дякуємо за високоякісний продукт та відмінне обслуговування!'</p>
                             <div className={styles.boxFlex}>
-                                <Image src="/Person3.png" alt="Third client" width={125} height={125}></Image>
+                                <Image src="/Person3.png" alt="Third client" width={125} height={125} loading="eager"></Image>
                                 <span>Андрій Кузнєцов</span>
                             </div>
                         </li>

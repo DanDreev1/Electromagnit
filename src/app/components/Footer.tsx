@@ -20,7 +20,7 @@ export default function Footer() {
         <footer className={style.background}>
             <div className={style.container}>
                 <div className={style.margin}>
-                    <Image src="/Logo.png" alt="Logo ElectroMagnit" width={200} height={500} className={style.footerLogo}  />
+                    <Image src="/Logo.png" alt="Logo ElectroMagnit" width={200} height={500} className={style.footerLogo} loading="eager" priority/>
                     <p className={style.copyright}>©2024 рік усі права захищені <br /><Link href="mailto:daniilandrieiev788@gmail.com">Створив сайт: Данііл Андрєєв</Link></p>
                 </div>
                 <div className={style.margin}>
@@ -30,18 +30,18 @@ export default function Footer() {
                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                         onClick={toggleClick}>
                             {isClick ? 
-                            (<Image className={style.icon} src="/up.png" alt='Розвернути' width={20} height={15}></Image>)
+                            (<Image className={style.icon} src="/up.png" alt='Розвернути' width={20} height={15} loading="eager" priority></Image>)
                             : 
-                            (<Image className={style.icon} src="/down.png" alt='Звернути' width={20} height={15}></Image>)}
+                            (<Image className={style.icon} src="/down.png" alt='Звернути' width={20} height={15} loading="eager" priority></Image>)}
                         </button>
                     </div>
                     <ul className={isClick ? style.footerMenu : "hidden"}>
                         <li className={style.box}>
-                            <Image src="/telephone.png" alt="telephone" width={20} height={20} className={style.image}  />
+                            <Image src="/telephone.png" alt="telephone" width={20} height={20} className={style.image} loading="eager" priority/>
                             <Link className={style.contacts} href="tel:+380964215130">+38 (096) 421-51-30</Link>
                         </li>
                         <li className={style.box}>
-                            <Image src="/envelope.png" alt="envelope" width={20} height={15} className={style.image}  />
+                            <Image src="/envelope.png" alt="envelope" width={20} height={15} className={style.image} loading="eager" priority/>
                             <Link className={style.contacts} href='mailto:europlastic2018@gmail.com'>europlastic2018@gmail.com</Link>
                         </li>
                     </ul>
@@ -54,9 +54,9 @@ export default function Footer() {
                         focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" id="alb" aria-labelledby="labeldiv"
                         onClick={toggleSecondClick}>
                             {isSecondClick ? 
-                            (<Image className={style.icon} src="/up.png" alt='Розвернути' width={20} height={15}></Image>)
+                            (<Image className={style.icon} src="/up.png" alt='Розвернути' width={20} height={15} loading="eager" priority></Image>)
                             : 
-                            (<Image className={style.icon} src="/down.png" alt='Звернути' width={20} height={15}></Image>)}
+                            (<Image className={style.icon} src="/down.png" alt='Звернути' width={20} height={15} loading="eager" priority></Image>)}
                         </button>
                     </div>
                     <div className={isSecondClick ? "visible" : "hidden"}>
