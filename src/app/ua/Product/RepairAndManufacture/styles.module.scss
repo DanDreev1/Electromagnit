@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
-
-
 $primary-color: #000;
 $secondary-color: #FFD600;
 $text: #fff;
@@ -14,7 +10,6 @@ $subtitle: #FF7A00;
     margin: 50px auto;
 }
 .span {
-    font-family: 'Montserrat', serif;
     font-size: 16px;
     font-weight: 700;
 }
@@ -22,17 +17,14 @@ $subtitle: #FF7A00;
     color: $primary-color;
 }
 .title {
-    font-family: 'Montserrat', serif;
     font-size: 30px;
     font-weight: 900;
 }
 .subtitle {
-    font-family: 'Montserrat', serif;
     font-size: 28px;
     font-weight: 900;
 }
 .text {
-    font-family: 'Montserrat', serif;
     font-size: 20px;
     font-weight: 500;
     margin: 15px 0;
@@ -51,7 +43,6 @@ $subtitle: #FF7A00;
     list-style: none;
     margin-bottom: 20px;
 
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     span {
@@ -87,19 +78,16 @@ $subtitle: #FF7A00;
 
 // Table
 .table {
-    font-family: 'Montserrat', serif;
     width: 100%;
 
     margin: 50px 0;
 }
 .secondtable {
-    font-family: 'Montserrat', serif;
     width: 70%;
 
     margin: 50px 0;
 }
 .thirdtable {
-    font-family: 'Montserrat', serif;
     width: 50%;
 
     margin: 50px 0;
@@ -134,7 +122,6 @@ $subtitle: #FF7A00;
 // Span
 .statement {
     display: block;
-    font-family: 'Montserrat', serif;
     font-size: 20px;
     font-weight: 500;
     padding: 30px 100px;
@@ -159,7 +146,6 @@ $subtitle: #FF7A00;
 }
 .question {
     display: block;
-    font-family: 'Montserrat', serif;
     font-size: 20px;
     font-weight: 500;
     padding: 30px 100px;
@@ -184,7 +170,6 @@ $subtitle: #FF7A00;
 }
 .exclamacion {
     display: block;
-    font-family: 'Montserrat', serif;
     font-size: 20px;
     font-weight: 700;
     padding: 30px 100px;
@@ -205,5 +190,137 @@ $subtitle: #FF7A00;
 
         width: 75px;
         height: 75px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .tableActiveSubmain {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .tableActiveMain {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .tableunactive {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .menu {
+        margin: 30px 0 30px 30px;
+    }
+    .list {
+        font-size: 18px;
+    }
+    .secondLevel {
+        font-size: 18px;
+    }
+
+    .title {
+        font-family: 'Montserrat', serif;
+        font-size: 24px;
+        font-weight: 900;
+        margin-top: 15px;
+    }
+    .subtitle {
+        font-family: 'Montserrat', serif;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .table {
+        margin: 30px 0;
+    }
+    .secondtable {
+   
+        margin: 30px 0;
+    }
+    .thirdtable {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .tableActiveSubmain {
+        font-size: 14px;
+    }
+    .tableActiveMain {
+        font-size: 14px;
+    }
+    .tableunactive {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 16px;
+    }
+    .span {
+        font-size: 14px;
+    }
+
+    .menu {
+        margin: 30px 0 30px 30px;
+    }
+    .list {
+        font-size: 14px;
+    }
+    .secondLevel {
+        font-size: 14px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .olmenu {
+        padding: 0;
+        margin: 20px 0;
+    }
+    .ollist {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 20px;
+    
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: #000 solid 3px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+    .statement {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
+    }
+    .question {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
+    }
+    .exclamacion {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
     }
 }

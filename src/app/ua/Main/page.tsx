@@ -2,9 +2,86 @@ import { Metadata } from "next"
 import styles from "./page.module.scss"
 import Image from "next/image"
 import Link from "next/link"
+import { montserrat_alternate } from "@/app/utils/fonts";
 
 export const metadata: Metadata = {
-    title: "Головна - Electromagnit"
+    applicationName: 'Electromagnit',
+    referrer: 'origin-when-cross-origin',
+    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
+    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    creator: 'Daniil Andrieiev',
+    formatDetection: {
+        email: true,
+        address: false,
+        telephone: true,
+    },
+
+    title: 'Головна',
+    description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+
+    metadataBase: new URL('https://electromagnit.vercel.app/ua/Main'),
+    alternates: {
+      canonical: '/ua',
+      languages: {
+        'en-GB': '/en',
+        'ru-RU': '/ru',
+      },
+    },
+    
+    openGraph: {
+        title: 'Головна',
+        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        url: 'https://electromagnit.vercel.app/ua/Main',
+        siteName: 'Electromanit',
+        
+        images: [
+        {
+            url: 'https://electromagnit.vercel.app/Logo.png',
+            width: 250,
+            height: 100,
+            alt: 'Logo'
+        },
+        {
+            url: 'https://electromagnit.vercel.app/Electromagnit 2.jpg',
+            width: 1800,
+            height: 1600,
+            alt: 'Electromagnit',
+        },
+        ],
+        locale: 'uk_UA',
+        type: 'website',
+    },
+
+    icons: {
+        icon: '../icon.png',
+        shortcut: '../icon.png',
+        apple: '../icon.png',
+    },
+
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Electomagnit',
+        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        // creator: '@nextjs',
+        // creatorId: '1467726470533754880',
+        images: ['https://electromagnit.vercel.app/Electromagnit 2.jpg'], // Must be an absolute URL
+    },
+
+    verification: {
+        google: 'google-site-verification-code',
+        yandex: 'yandex-verification-code',
+        yahoo: 'yahoo-verification-code',
+        other: {
+          me: ['mailto:europlastic2018@gmail.com', 'my-link'],
+        },
+    },
+
+    appleWebApp: {
+        title: 'Electromagnit',
+        statusBarStyle: 'black-translucent',
+    },
+
+    category: 'electromagnit',
 };
 
 export default async function Home() {
@@ -16,8 +93,8 @@ export default async function Home() {
                     <h1 className={styles.title}>Вантажопідйомні<br /><span className={styles.color}>електро</span>магніти</h1>
                     <div className={styles.flex}>
                         <div className={styles.box}>
-                            <h2>Ми раді вітати Вас на сайті нашого підприємства!</h2>
-                            <p>Electromagnit - це розробка вантажних електромагнітів, що охоплює ринки СНД і Європи.</p>
+                            <h2 className={`${montserrat_alternate}`}>Ми раді вітати Вас на сайті нашого підприємства!</h2>
+                            <p>Electromagnit - це розробка вантажних електромагнітів, що охоплює ринки СНГ і Європи.</p>
                             <Link className={styles.button} href="../ua/Contacts">Зв'яжіться з нами</Link>
                         </div>
                         <Image className={styles.image} src='/HeroImg.jpg' alt='electromagnets for sheet steel' width={500} height={200} priority></Image>
@@ -77,11 +154,11 @@ export default async function Home() {
                 <div className={styles.container}>
                     <div className={styles.gradientFlex}>
                         <div className={styles.gradientBox}>
-                            <h3>Ви вже зацікавлені?</h3>
+                            <h3 className={`${montserrat_alternate}`}>Ви вже зацікавлені?</h3>
                             <p className={styles.boxParagraph}>Ми готові обробити ваше замовлення сьогодні</p>
                         </div>
                         <div className={styles.box}>
-                            <h3>Зв'яжіться з нами і ми виготовимо для вас деталь на замовлення</h3>
+                            <h3 className={`${montserrat_alternate}`}>Зв'яжіться з нами і ми виготовимо для вас деталь на замовлення</h3>
                             <Link className={styles.button} href="../ua/Contacts">Зв'яжіться з нами</Link>
                         </div>
                     </div>

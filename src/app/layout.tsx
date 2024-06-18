@@ -3,6 +3,7 @@ import Link from "next/link";
 import style from "./styles.module.scss";
 import Head from "next/head";
 import './globals.css'
+import { montserrat } from "./utils/fonts";
 
 export const metadata: Metadata = {
   title: 'Electromagnit',
@@ -15,7 +16,7 @@ export default function RootLayout({
     children: React.ReactNode;
   }>) {
   return (
-    <html lang="ua">
+    <html lang="uk">
       <Head>
         <link
             rel="icon"
@@ -24,11 +25,11 @@ export default function RootLayout({
             sizes="32x32"
         />
       </Head>
-      <body className={style.container}>
+      <body className={`${montserrat} ${style.container}`}>
         <header className={style.box}>
                 <h2 className={style.title}>Оберіть мову | Выберете язык | Choose the language</h2>
                 <div className={style.flex}>
-                    <Link href="../../../../ua" className={style.language}>Українська</Link>
+                    <Link href="../../../../ua/Main" className={style.language}>Українська</Link>
                     <Link href="" className={style.language}>Русский</Link>
                     <Link href="" className={style.language}>English</Link>
                 </div>

@@ -4,7 +4,83 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "ПН-500-Г"
+    applicationName: 'Electromagnit',
+    referrer: 'origin-when-cross-origin',
+    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
+    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    creator: 'Daniil Andrieiev',
+    formatDetection: {
+        email: true,
+        address: false,
+        telephone: true,
+    },
+
+    title: "ПН-500-Г",
+    description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+
+    metadataBase: new URL('https://electromagnit.vercel.app/ua/Product/ControlSystems/SecondPage'),
+    alternates: {
+      canonical: '/ua',
+      languages: {
+        'en-GB': '/en',
+        'ru-RU': '/ru',
+      },
+    },
+    
+    openGraph: {
+        title: "ПН-500-Г",
+        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        url: 'https://electromagnit.vercel.app/ua/Product/ControlSystems/SecondPage',
+        siteName: 'Electromanit',
+        
+        images: [
+        {
+            url: 'https://electromagnit.vercel.app/Logo.png',
+            width: 250,
+            height: 100,
+            alt: 'Logo'
+        },
+        {
+            url: 'https://electromagnit.vercel.app/Electromagnit 2.jpg',
+            width: 1800,
+            height: 1600,
+            alt: 'Electromagnit',
+        },
+        ],
+        locale: 'uk_UA',
+        type: 'website',
+    },
+
+    icons: {
+        icon: '../icon.png',
+        shortcut: '../icon.png',
+        apple: '../icon.png',
+    },
+
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Electomagnit',
+        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        // creator: '@nextjs',
+        // creatorId: '1467726470533754880',
+        images: ['https://electromagnit.vercel.app/Electromagnit 2.jpg'], // Must be an absolute URL
+    },
+
+    verification: {
+        google: 'google-site-verification-code',
+        yandex: 'yandex-verification-code',
+        yahoo: 'yahoo-verification-code',
+        other: {
+          me: ['mailto:europlastic2018@gmail.com', 'my-link'],
+        },
+    },
+
+    appleWebApp: {
+        title: 'Electromagnit',
+        statusBarStyle: 'black-translucent',
+    },
+
+    category: 'electromagnit',
 };
 
 export default function Page() {
@@ -13,8 +89,8 @@ export default function Page() {
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../ControlSystems">Системи керування</Link> {'>'} ПН-500-Г</span>
             <h2 className={styles.title}>Генераторні системи керування електромагнітами (ПН-500-Г)</h2>
             <div className="flex my-10">
-                <span className="mr-10 text-gray-600 ">На читання: 2 хв</span>
-                <span className="text-gray-600">Опубліковано: 07/06/2024</span>
+                <span className="mr-10 text-gray-600 text-sm">На читання: 2 хв</span>
+                <span className="text-gray-600 text-sm">Опубліковано: 07/06/2024</span>
             </div>
             <Image className="mb-10" src="/Control System 2.jpg" alt="Something" width={1200} height={575} priority></Image>
             <p className={styles.text}><b>ПН-500-Г – Перетворювачі напруги серії (ПН-500-Г)</b> – були спеціально розроблені для роботи з генераторами, що встановлюються на пересувних кранах та екскаваторах за відсутності стаціонарної мережі. Призначені для <b>живлення та керування вантажопідйомних електромагнітів</b> постійного струму будь-якої потужності та для спільної роботи з генераторами 220 або 380 в.</p>
@@ -93,72 +169,74 @@ export default function Page() {
                     <p>Висока надійність, одержувана за рахунок нової елементної бази та оригінальних технічних рішень, захищених патентним законом РФ.</p>
                 </li>
             </ol>
-            <table className={styles.secondtable}>
-                <thead>
-                    <tr>
-                        <th className={styles.tableActiveMain}>ПАРАМЕТРИ</th>
-                        <th className={styles.tableActiveSubmain}>ПН-500-Г-50</th>
-                        <th className={styles.tableActiveSubmain}>ПН-500-Г-100</th>
-                        <th className={styles.tableActiveSubmain}>ПН-500-Г-150</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Напруга живлення, B</th>
-                        <td className={styles.tableunactive}>220 чи 380</td>
-                        <td className={styles.tableunactive}>220 чи 380</td>
-                        <td className={styles.tableunactive}>220 чи 380</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Частота, Гц</th>
-                        <td className={styles.tableunactive}>50</td>
-                        <td className={styles.tableunactive}>50</td>
-                        <td className={styles.tableunactive}>50</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Діапазон регулювання вихідної напруги, B</th>
-                        <td className={styles.tableunactive}>10-230</td>
-                        <td className={styles.tableunactive}>10-230</td>
-                        <td className={styles.tableunactive}>10-230</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Час розмагнічування, сек, не більше</th>
-                        <td className={styles.tableunactive}>3</td>
-                        <td className={styles.tableunactive}>3</td>
-                        <td className={styles.tableunactive}>3</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Максимально допустимий струм, ПВ-75%, А</th>
-                        <td className={styles.tableunactive}>50</td>
-                        <td className={styles.tableunactive}>100</td>
-                        <td className={styles.tableunactive}>150</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Габаритні розміри, мм, не більше</th>
-                        <td className={styles.tableunactive}>360х150х375</td>
-                        <td className={styles.tableunactive}>360х150х375</td>
-                        <td className={styles.tableunactive}>360х150х375</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Посадочні розміри, мм</th>
-                        <td className={styles.tableunactive}>255х350</td>
-                        <td className={styles.tableunactive}>255х350</td>
-                        <td className={styles.tableunactive}>255х350</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Маса, кг, не більше</th>
-                        <td className={styles.tableunactive}>12,0</td>
-                        <td className={styles.tableunactive}>12,2</td>
-                        <td className={styles.tableunactive}>12,5</td>
-                    </tr>
-                    <tr>
-                        <th className={styles.tableActiveMain}>Рекомендована потужність генератора, кВт</th>
-                        <td className={styles.tableunactive}>10-15</td>
-                        <td className={styles.tableunactive}>20-25</td>
-                        <td className={styles.tableunactive}>30-40</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className="overflow-x-auto">
+                <table className={styles.secondtable}>
+                    <thead>
+                        <tr>
+                            <th className={styles.tableActiveMain}>ПАРАМЕТРИ</th>
+                            <th className={styles.tableActiveSubmain}>ПН-500-Г-50</th>
+                            <th className={styles.tableActiveSubmain}>ПН-500-Г-100</th>
+                            <th className={styles.tableActiveSubmain}>ПН-500-Г-150</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Напруга живлення, B</th>
+                            <td className={styles.tableunactive}>220 чи 380</td>
+                            <td className={styles.tableunactive}>220 чи 380</td>
+                            <td className={styles.tableunactive}>220 чи 380</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Частота, Гц</th>
+                            <td className={styles.tableunactive}>50</td>
+                            <td className={styles.tableunactive}>50</td>
+                            <td className={styles.tableunactive}>50</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Діапазон регулювання вихідної напруги, B</th>
+                            <td className={styles.tableunactive}>10-230</td>
+                            <td className={styles.tableunactive}>10-230</td>
+                            <td className={styles.tableunactive}>10-230</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Час розмагнічування, сек, не більше</th>
+                            <td className={styles.tableunactive}>3</td>
+                            <td className={styles.tableunactive}>3</td>
+                            <td className={styles.tableunactive}>3</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Максимально допустимий струм, ПВ-75%, А</th>
+                            <td className={styles.tableunactive}>50</td>
+                            <td className={styles.tableunactive}>100</td>
+                            <td className={styles.tableunactive}>150</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Габаритні розміри, мм, не більше</th>
+                            <td className={styles.tableunactive}>360х150х375</td>
+                            <td className={styles.tableunactive}>360х150х375</td>
+                            <td className={styles.tableunactive}>360х150х375</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Посадочні розміри, мм</th>
+                            <td className={styles.tableunactive}>255х350</td>
+                            <td className={styles.tableunactive}>255х350</td>
+                            <td className={styles.tableunactive}>255х350</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Маса, кг, не більше</th>
+                            <td className={styles.tableunactive}>12,0</td>
+                            <td className={styles.tableunactive}>12,2</td>
+                            <td className={styles.tableunactive}>12,5</td>
+                        </tr>
+                        <tr>
+                            <th className={styles.tableActiveMain}>Рекомендована потужність генератора, кВт</th>
+                            <td className={styles.tableunactive}>10-15</td>
+                            <td className={styles.tableunactive}>20-25</td>
+                            <td className={styles.tableunactive}>30-40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <span className={styles.exclamacion}>УВАГА! ПРИ ВИБОРІ ЖИВЧОГО ГЕНЕРАТОРА Враховуйте ПОТУЖНІСТЬ ІНШИХ СПОЖИВАЧІВ ЕНЕРГІЇ!</span>
         </section>
     );

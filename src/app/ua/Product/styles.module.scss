@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
-
-
 $primary-color: #000;
 $secondary-color: #FFD600;
 $text: #fff;
@@ -19,7 +15,6 @@ $subtitle: #FF7A00;
     margin: 50px auto 135px;
     font-size: 32px;
     font-weight: 700;
-    font-family: 'Montserrat', serif;
 }
 .menu {
     margin-bottom: 100px;
@@ -43,7 +38,6 @@ $subtitle: #FF7A00;
                 h3 {
                     font-size: 40px;
                     font-weight: 800;
-                    font-family: 'Montserrat', serif;
     
                     color: #000;
                     margin: 0 0 35px;
@@ -51,7 +45,6 @@ $subtitle: #FF7A00;
                 p {
                     font-size: 24px;
                     font-weight: 400;
-                    font-family: 'Montserrat', serif;
     
                     color: #000;
                 }
@@ -59,4 +52,59 @@ $subtitle: #FF7A00;
         }
     }
 
+}
+
+@media (max-width: 1280px) {
+    .product {
+        font-size: 20px;
+        margin: 100px auto 50px;
+    }
+    .menu {
+        margin-bottom: 250px;
+        .list {
+            .link {
+                .image {
+                    width: 350px;
+                }
+                .info {
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 767px) {
+    .product {
+        font-size: 14px;
+        margin: 50px auto;
+    }
+    .menu {
+        margin-bottom: 100px;
+        .list {
+            .link {
+                flex-direction: column;
+                .image {
+                    width: 100%;
+                }
+                .info {
+                    margin-top: 20px;
+                    h3 {
+                        font-size: 20px;
+                        margin: 0 0 10px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    
+    }
 }
