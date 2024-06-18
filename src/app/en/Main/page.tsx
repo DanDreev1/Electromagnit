@@ -178,7 +178,7 @@ export default async function Home() {
                         </li>
                         <li>
                             <h3>Review from Director of 'METALOPROM' Company</h3>
-                            <p>'We purchased the PN-500-Ж iron separator control system for our production, and I want to express my complete satisfaction with this equipment. The system has proven to be extremely efficient and reliable, allowing us to optimize the process of separating metallic materials and increase the overall productivity of our plant.'</p>
+                            <p>'We purchased the PN-500-Ж iron separator control system for our production, and I want to express my complete satisfaction with this equipment. The system has proven to be extremely efficient and reliable, allowing us to optimize the process of separating.'</p>
                             <div className={styles.boxFlex}>
                                 <Image src="/Person3.png" alt="Third Client" width={125} height={125} loading="eager" />
                                 <span>Andrey Kuznetsov</span>
