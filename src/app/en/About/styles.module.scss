@@ -1,0 +1,131 @@
+$primary-color: #000;
+$secondary-color: #FFD600;
+$text: #fff;
+$active: #D9D9D9;
+$subtitle: #FF7A00;
+
+.container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: $subtitle;
+}
+.box {
+    display: flex;
+    margin-bottom: 50px;
+    .subtitle {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 50px;
+    }
+    .text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+.textBox {
+    margin-bottom: 50px;
+    .textList {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+}
+.about {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.menu {
+    padding: 0;
+    margin-bottom: 100px;
+}
+.list {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #000 solid 3px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    p {
+        margin: 0;
+    }
+}
+@media (max-width: 1280px) {
+    .box {
+        background-color: $active;
+        border-radius: 15px;
+        padding: 20px 30px;
+        .subtitle {
+            font-size: 20px;
+            margin: 0 0 30px;
+        }
+        .text {
+            font-size: 16px;
+        }
+    }
+    .textBox {
+        .textList {
+            font-size: 16px;
+        }
+    }
+    .about {
+        font-size: 20px;
+    }
+    .list {
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px) {
+    .title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .box {
+        margin-bottom: 30px;
+        .image {
+            width: 0;
+        }
+        .subtitle {
+            font-size: 20px;
+        }
+        .text {
+            font-size: 16px;
+        }
+    }
+    .textBox {
+        .textList {
+            font-size: 14px;
+        }
+    }
+    .about {
+        font-size: 16px;
+    }
+    .list {
+        grid-template-columns: 40px 1fr;
+        font-size: 12px;
+        span {
+            border: #000 solid 1px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

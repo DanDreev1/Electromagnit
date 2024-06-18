@@ -77,7 +77,7 @@ export default function Header() {
                             </button>
                         </div>
                         <span className={`${montserrat} ${style.questions}`}>С вопросами звоните:<br />+4471234567890</span>
-                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="../ua/Main">Українська</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="../ua/Main">Українська</Link> / <Link className={style.languageLink} href="../en/Main">English</Link></span>
                     </div>
                 </div>
                 {isClick && (
@@ -101,7 +101,7 @@ export default function Header() {
                             </ul>
                             <div className="flex flex-col content-center flex-wrap items-center pb-10">
                                 <span className={`${montserrat} ${style.questionsBurger}`}>С вопросами звоните:<br />+4471234567890</span>
-                                <span className={`${montserrat} ${style.languageBurger}`}><Link className={style.languageLink} href="#">Українська</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                                <span className={`${montserrat} ${style.languageBurger}`}><Link className={style.languageLink} href="../ua/Main">Українська</Link> / <Link className={style.languageLink} href="../en/Main">English</Link></span>
                             </div>
                         </div>
                     </div>

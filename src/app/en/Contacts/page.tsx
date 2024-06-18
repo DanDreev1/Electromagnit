@@ -6,8 +6,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
-    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    keywords: ['Electromagnet', 'Control systems', 'Iron separators', 'Repair and production of spare parts for electromagnets', 'Electromagnit', 'Lifting electromagnets'],
+    authors: [{ name: 'Sergey', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -15,22 +15,13 @@ export const metadata: Metadata = {
         telephone: true,
     },
 
-    title: 'Контакти',
-    description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
-
-    metadataBase: new URL('https://electromagnit.vercel.app/ua/Contacts'),
-    alternates: {
-      canonical: '/ua',
-      languages: {
-        'en-GB': '/en',
-        'ru-RU': '/ru',
-      },
-    },
+    title: 'Contacts',
+    description: 'The best truck magnets for every need. Find out more about our products and services.',
     
     openGraph: {
-        title: 'Контакти',
-        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
-        url: 'https://electromagnit.vercel.app/ua/Contacts',
+        title: 'Contacts',
+        description: 'The best truck magnets for every need. Find out more about our products and services.',
+        url: 'https://electromagnit.vercel.app/en/Contacts',
         siteName: 'Electromanit',
         
         images: [
@@ -60,7 +51,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Electomagnit',
-        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        description: 'The best truck magnets for every need. Find out more about our products and services.',
         // creator: '@nextjs',
         // creatorId: '1467726470533754880',
         images: ['https://electromagnit.vercel.app/Electromagnit 2.jpg'], // Must be an absolute URL
@@ -87,20 +78,20 @@ export default async function Contacts() {
 
     return (
         <div className={style.container}>
-            <h1 className={style.title}>Контакти</h1>
+            <h1 className={style.title}>Contacts</h1>
             <h2>“ElectroMagnit”</h2>
-            <h3>Наші контакти:</h3>
+            <h3>Our Contacts:</h3>
             <ul className={style.menu}>
                 <li className={style.box}>
-                    <Image className={style.image} src="/alternativePhone.svg" alt="telephone" width={30} height={30} />
+                    <Image className={style.image} src="/alternativePhone.svg" alt="phone" width={30} height={30} />
                     <Link className={style.contacts} href="tel:+380964215130">+38 (096) 421-51-30</Link>
                 </li>
                 <li className={style.box}>
-                    <Image className={style.image} src="/envelope.png" alt="envelope" width={30} height={25} />
+                    <Image className={style.image} src="/envelope.png" alt="email" width={30} height={25} />
                     <Link className={style.contacts} href='mailto:europlastic2018@gmail.com'>europlastic2018@gmail.com</Link>
                 </li>
             </ul>
-            <p className={style.text}>А також ви можете написати нам у <Link className={style.viber} href="viber://chat?number=%2b380964215130" >Viber</Link> або <Link className={style.telegram} href="https://t.me/%2b380964215130" >Telegram</Link></p>
+            <p className={style.text}>You can also reach us on <Link className={style.viber} href="viber://chat?number=%2b380964215130">Viber</Link> or <Link className={style.telegram} href="https://t.me/%2b380964215130">Telegram</Link></p>
         </div>
     );
 }

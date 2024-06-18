@@ -3,8 +3,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Электромагнит', 'Системы управления', 'Железоотделители', 'Ремонт и изготовление запасных частей электромагнитов', 'Electromagnit', 'Грузоподъемные электромагниты'],
-    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
+    keywords: ['Electromagnet', 'Control systems', 'Iron separators', 'Repair and production of spare parts for electromagnets', 'Electromagnit', 'Lifting electromagnets'],
+    authors: [{ name: 'Sergey', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -13,18 +13,18 @@ export const metadata: Metadata = {
     },
 
     title: {
-        default: 'Продукт',
-        template: "Продукт | %s"
+        default: 'Product',
+        template: "Product | %s"
     },
-    description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
+    description: 'The best truck magnets for every need. Find out more about our products and services.',
     
     openGraph: {
         title: {
-            default: 'Продукт',
-            template: "Продукт | %s"
+            default: 'Product',
+            template: 'Product | %s'
         },
-        description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-        url: 'https://electromagnit.vercel.app/ru/Product',
+        description: 'The best truck magnets for every need. Find out more about our products and services.',
+        url: 'https://electromagnit.vercel.app/en/Product',
         siteName: 'Electromanit',
         
         images: [
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Electomagnit',
-        description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
+        description: 'The best truck magnets for every need. Find out more about our products and services.',
         // creator: '@nextjs',
         // creatorId: '1467726470533754880',
         images: ['https://electromagnit.vercel.app/Electromagnit 2.jpg'], // Must be an absolute URL

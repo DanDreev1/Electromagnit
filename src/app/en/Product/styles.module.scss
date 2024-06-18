@@ -1,0 +1,110 @@
+$primary-color: #000;
+$secondary-color: #FFD600;
+$text: #fff;
+$active: #D9D9D9;
+$subtitle: #FF7A00;
+
+.container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+    text-align: center;
+}
+.product {
+    max-width: 1200px;
+    margin: 50px auto 135px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.menu {
+    margin-bottom: 100px;
+    .list {
+        display: block;
+        margin-bottom: 50px;
+        list-style: none;
+        .link {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            .image {
+                width: 100%;
+                border: #000 solid 5px;
+                border-radius: 15px;
+                flex-shrink: 2;
+                margin-right: 20px;
+            }
+            .info {
+                text-align: start;
+                h3 {
+                    font-size: 40px;
+                    font-weight: 800;
+    
+                    color: #000;
+                    margin: 0 0 35px;
+                }
+                p {
+                    font-size: 24px;
+                    font-weight: 400;
+    
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .product {
+        font-size: 20px;
+        margin: 100px auto 50px;
+    }
+    .menu {
+        margin-bottom: 250px;
+        .list {
+            .link {
+                .image {
+                    width: 350px;
+                }
+                .info {
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 767px) {
+    .product {
+        font-size: 14px;
+        margin: 50px auto;
+    }
+    .menu {
+        margin-bottom: 100px;
+        .list {
+            .link {
+                flex-direction: column;
+                .image {
+                    width: 100%;
+                }
+                .info {
+                    margin-top: 20px;
+                    h3 {
+                        font-size: 20px;
+                        margin: 0 0 10px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    
+    }
+}

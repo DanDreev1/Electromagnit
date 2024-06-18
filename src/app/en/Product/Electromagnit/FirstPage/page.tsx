@@ -6,8 +6,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Электромагнит', 'Системы управления', 'Железоотделители', 'Ремонт и изготовление запасных частей электромагнитов', 'Electromagnit', 'Грузоподъемные электромагниты'],
-    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
+    keywords: ['Electromagnet', 'Control systems', 'Iron separators', 'Repair and production of spare parts for electromagnets', 'Electromagnit', 'Lifting electromagnets'],
+    authors: [{ name: 'Sergey', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     },
 
     title: "М22, М42, М62, М63",
-    description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
+    description: 'The best truck magnets for every need. Find out more about our products and services.',
     
     openGraph: {
         title: "М22, М42, М62, М63",
-        description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-        url: 'https://electromagnit.vercel.app/ru/Product/Electromagnit/FirstPage',
+        description: 'The best truck magnets for every need. Find out more about our products and services.',
+        url: 'https://electromagnit.vercel.app/en/Product/Electromagnit/FirstPage',
         siteName: 'Electromanit',
         
         images: [
@@ -77,130 +77,130 @@ export const metadata: Metadata = {
 export default function Page() {
     return (
         <section className={styles.container}>
-            <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../Electromagnit">Электромагнит</Link> {'>'} M22, M42, M62, M63</span>
-            <h2 className={styles.title}>М22, М42, М62, М63 — Модернизированные электромагниты с увеличенной грузоподъемностью</h2>
+            <span className={styles.span}><Link className={styles.link} href="../../Product">Product</Link> {'>'} <Link className={styles.link} href="../Electromagnit">Electromagnet</Link> {'>'} M22, M42, M62, M63</span>
+            <h2 className={styles.title}>M22, M42, M62, M63 — Upgraded Electromagnets with Increased Lifting Capacity</h2>
             <div className="flex my-8">
-                <span className="mr-10 text-gray-600 text-sm">На чтение: 2 мин</span>
-                <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>
+                <span className="mr-10 text-gray-600 text-sm">Read time: 2 min</span>
+                <span className="text-gray-600 text-sm">Published: 07/06/2024</span>
             </div>
             <Image className="mb-10" src="/Electromagnit 1.jpg" alt="Something" width={1200} height={575} priority></Image>
-            <h2 className={styles.title}>Область применения электромагнитов</h2>
+            <h2 className={styles.title}>Application Area of Electromagnets</h2>
             <ul className={styles.menu}>
                 <li className={styles.list}>
-                    <b>М22, М42, М62, М63 — Модернизированные электромагниты с увеличенной грузоподъемностью</b> предназначены для захвата и переноса крановыми механизмами холодного (окружающей среды) груза из ферромагнитных материалов: металлолом, скрап, металлическая шихта, стружка, металлопрокат, чушки, слябы и т.д.
+                    <b>M22, M42, M62, M63 — Upgraded electromagnets with increased lifting capacity</b> are designed for capturing and transporting cold (ambient) loads of ferromagnetic materials using crane mechanisms: metal scrap, metal shavings, metal billets, chips, rolled metal, ingots, slabs, etc.
                 </li>
                 <li className={styles.list}>
-                Данные <b>грузоподъемные электромагниты</b> можно использовать на траверсе (производится под конкретные нужды заказчика).
+                    These <b>lifting electromagnets</b> can be used on traverse (customized according to specific customer needs).
                 </li>
             </ul>
-            <h3 className={styles.subtitle}>Отличительные черты электромагнитов</h3>
+            <h3 className={styles.subtitle}>Distinctive Features of Electromagnets</h3>
             <ul className={styles.menu}>
                 <li className={styles.list}>
-                Данные грузоподъемные электромагниты производятся путем доработки и усовершенствования выпущенных ранее <b>грузоподъемных электромагнитов серии М22, М42, М62, М63 и т.д. с увеличением их грузоподъемности на 20%, 30%, 40%, 50%, 70%, в 2 раза и больше!</b>
+                    These lifting electromagnets are produced by modifying and improving previously released <b>M22, M42, M62, M63 series electromagnets and others, increasing their lifting capacity by 20%, 30%, 40%, 50%, 70%, or more!</b>
                 </li>
                 <li className={styles.list}>
-                Грузоподъемность электромагнитов серии "стандарт" соответствует электромагнитам М22, М42, М62, М63.
+                    The lifting capacity of standard series electromagnets corresponds to M22, M42, M62, M63 electromagnets.
                 </li>
                 <li className={styles.list}>
-                Грузоподъемность электромагнитов тяжелой и супертяжелой серии повышена за счет увеличения сечения магнитопровода электромагнита и мощности катушки.
+                    The lifting capacity of heavy and super-heavy series electromagnets is increased by increasing the cross-section of the magnet core and the power of the coil.
                 </li>
                 <li className={styles.secondLevel}>
                     <ul className={styles.menu}>
                         <li className={styles.list}>
-                        Высокая грузоподъемность электромагнита;
+                            High lifting capacity of the electromagnet;
                         </li>
                         <li className={styles.list}>
-                        Понижение нагрева катушки электромагнита;
+                            Reduced heating of the electromagnet coil;
                         </li>
                         <li className={styles.list}>
-                        Экономию электроэнергии на тонну переносимого груза;
+                            Energy savings per ton of transported load;
                         </li>
                         <li className={styles.list}>
-                        Высокую продолжительность непрерывной работы;
+                            High continuous operation duration;
                         </li>
                         <li className={styles.list}>
-                        Стабильность грузоподъемных параметров в процессе работы;
+                            Stability of lifting parameters during operation;
                         </li>
                         <li className={styles.list}>
-                        Высокая надежность и долговечность обмотки.
+                            High reliability and durability of the winding.
                         </li>
                     </ul>
                 </li>
             </ul>
-            <h3 className={styles.subtitle}>Технические данные электромагнитов</h3>
+            <h3 className={styles.subtitle}>Technical Data of Electromagnets</h3>
             <div className="overflow-x-auto" aria-hidden="true">
                 <table className={styles.table}>
                     <thead>
                         <tr>
-                            <th rowSpan={2} className={styles.tableActiveMain}>Наименование</th>
-                            <th rowSpan={2} className={styles.tableActiveSubmain}>Отрывное усилие, кг, не меньше</th>
-                            <th colSpan={2} className={styles.tableActiveSubmain}>Грузоподъемность, кг</th>
-                            <th rowSpan={2} className={styles.tableActiveSubmain}>Масса магнита, кг</th>
+                            <th rowSpan={2} className={styles.tableActiveMain}>Name</th>
+                            <th rowSpan={2} className={styles.tableActiveSubmain}>Pulling Force, kg, minimum</th>
+                            <th colSpan={2} className={styles.tableActiveSubmain}>Lifting Capacity, kg</th>
+                            <th rowSpan={2} className={styles.tableActiveSubmain}>Magnet Weight, kg</th>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveSubmain}>Скрап 3A</th>
-                            <th className={styles.tableActiveSubmain}>Стружка 15А</th>
+                            <th className={styles.tableActiveSubmain}>Scrap 3A</th>
+                            <th className={styles.tableActiveSubmain}>Shavings 15A</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-22/Standard</th>
                             <td className={styles.tableunactive}>7500</td>
                             <td className={styles.tableunactive}>160</td>
                             <td className={styles.tableunactive}>120</td>
                             <td className={styles.tableunactive}>470</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-22/Heavy</th>
                             <td className={styles.tableunactive}>9000</td>
                             <td className={styles.tableunactive}>200</td>
                             <td className={styles.tableunactive}>150</td>
                             <td className={styles.tableunactive}>620</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-22/Super-Heavy</th>
                             <td className={styles.tableunactive}>11000</td>
                             <td className={styles.tableunactive}>250</td>
                             <td className={styles.tableunactive}>190</td>
                             <td className={styles.tableunactive}>710</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-42/Standard</th>
                             <td className={styles.tableunactive}>16000</td>
                             <td className={styles.tableunactive}>400</td>
                             <td className={styles.tableunactive}>350</td>
                             <td className={styles.tableunactive}>1350</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-42/Heavy</th>
                             <td className={styles.tableunactive}>27000</td>
                             <td className={styles.tableunactive}>450</td>
                             <td className={styles.tableunactive}>400</td>
                             <td className={styles.tableunactive}>1510</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-42/Super-Heavy</th>
                             <td className={styles.tableunactive}>33000</td>
                             <td className={styles.tableunactive}>570</td>
                             <td className={styles.tableunactive}>500</td>
                             <td className={styles.tableunactive}>1800</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-62/Standard</th>
                             <td className={styles.tableunactive}>25000</td>
                             <td className={styles.tableunactive}>600</td>
                             <td className={styles.tableunactive}>550</td>
                             <td className={styles.tableunactive}>2750</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-62/Heavy</th>
                             <td className={styles.tableunactive}>50000</td>
                             <td className={styles.tableunactive}>900</td>
                             <td className={styles.tableunactive}>800</td>
                             <td className={styles.tableunactive}>3450</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-62/Super-Heavy</th>
                             <td className={styles.tableunactive}>62500</td>
                             <td className={styles.tableunactive}>1150</td>
                             <td className={styles.tableunactive}>1000</td>
@@ -209,76 +209,77 @@ export default function Page() {
                     </tbody>
                 </table>
             </div>
+            <h3 className={styles.subtitle}>Dimensions</h3>
             <div className="overflow-x-auto" aria-hidden="true">
                 <table className={styles.table}>
                     <thead>
                         <tr>
-                            <th className={styles.tableActiveMain}>Наименование</th>
-                            <th className={styles.tableActiveSubmain}>Номинальный ток, A</th>
-                            <th className={styles.tableActiveSubmain}>Мощность номинальная, Вт</th>
-                            <th className={styles.tableActiveSubmain}>Мощность при нагретой катушке, Вт.</th>
-                            <th className={styles.tableActiveSubmain}>Рекомендуемая грузоподъемность крана, тн.</th>
+                            <th className={styles.tableActiveMain}>Name</th>
+                            <th className={styles.tableActiveSubmain}>Nominal Current, A</th>
+                            <th className={styles.tableActiveSubmain}>Nominal Power, W</th>
+                            <th className={styles.tableActiveSubmain}>Power with Heated Coil, W</th>
+                            <th className={styles.tableActiveSubmain}>Recommended Crane Capacity, tons</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-22/Standard</th>
                             <td className={styles.tableunactive}>16±8%</td>
                             <td className={styles.tableunactive}>3600</td>
                             <td className={styles.tableunactive}>2300</td>
-                            <td className={styles.tableunactive}>3,2; 5</td>
+                            <td className={styles.tableunactive}>3.2; 5</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-22/Heavy</th>
                             <td className={styles.tableunactive}>23±8%</td>
                             <td className={styles.tableunactive}>5300</td>
                             <td className={styles.tableunactive}>3700</td>
-                            <td className={styles.tableunactive}>3,2; 5</td>
+                            <td className={styles.tableunactive}>3.2; 5</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-22/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-22/Super Heavy</th>
                             <td className={styles.tableunactive}>30±8%</td>
                             <td className={styles.tableunactive}>6600</td>
                             <td className={styles.tableunactive}>4650</td>
-                            <td className={styles.tableunactive}>3,2; 5</td>
+                            <td className={styles.tableunactive}>3.2; 5</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-42/Standard</th>
                             <td className={styles.tableunactive}>42±8%</td>
                             <td className={styles.tableunactive}>9300</td>
                             <td className={styles.tableunactive}>6500</td>
                             <td className={styles.tableunactive}>5; 10</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-42/Heavy</th>
                             <td className={styles.tableunactive}>51±8%</td>
                             <td className={styles.tableunactive}>11250</td>
                             <td className={styles.tableunactive}>7900</td>
                             <td className={styles.tableunactive}>5; 10</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-42/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-42/Super Heavy</th>
                             <td className={styles.tableunactive}>60±8%</td>
                             <td className={styles.tableunactive}>13200</td>
                             <td className={styles.tableunactive}>9300</td>
                             <td className={styles.tableunactive}>5; 10</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Стандарт</th>
+                            <th className={styles.tableActiveMain}>M-62/Standard</th>
                             <td className={styles.tableunactive}>80±8%</td>
                             <td className={styles.tableunactive}>17600</td>
                             <td className={styles.tableunactive}>12500</td>
                             <td className={styles.tableunactive}>5; 10; 16</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Тяжелая</th>
+                            <th className={styles.tableActiveMain}>M-62/Heavy</th>
                             <td className={styles.tableunactive}>93±8%</td>
                             <td className={styles.tableunactive}>20200</td>
                             <td className={styles.tableunactive}>14400</td>
                             <td className={styles.tableunactive}>10; 16</td>
                         </tr>
                         <tr>
-                            <th className={styles.tableActiveMain}>М-62/Супертяжелая</th>
+                            <th className={styles.tableActiveMain}>M-62/Super Heavy</th>
                             <td className={styles.tableunactive}>108±8%</td>
                             <td className={styles.tableunactive}>23800</td>
                             <td className={styles.tableunactive}>16700</td>
@@ -287,11 +288,11 @@ export default function Page() {
                     </tbody>
                 </table>
             </div>
-            <h3 className={styles.subtitle}>Габаритные размеры</h3>
+            <h3 className={styles.subtitle}>Dimensions</h3>
             <table className={styles.secondtable}>
                 <thead>
                     <tr>
-                        <th className={styles.tableActiveMain}>Наименование</th>
+                        <th className={styles.tableActiveMain}>Name</th>
                         <th className={styles.tableActiveSubmain}>A</th>
                         <th className={styles.tableActiveSubmain}>B</th>
                         <th className={styles.tableActiveSubmain}>C</th>
@@ -299,55 +300,55 @@ export default function Page() {
                 </thead>
                 <tbody>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-22/Стандарт</th>
+                        <th className={styles.tableActiveMain}>M-22/Standard</th>
                         <td className={styles.tableunactive}>780</td>
                         <td className={styles.tableunactive}>300</td>
                         <td className={styles.tableunactive}>910</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-22/Тяжелая</th>
+                        <th className={styles.tableActiveMain}>M-22/Heavy</th>
                         <td className={styles.tableunactive}>780</td>
                         <td className={styles.tableunactive}>360</td>
                         <td className={styles.tableunactive}>970</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-22/Супертяжелая</th>
+                        <th className={styles.tableActiveMain}>M-22/Super Heavy</th>
                         <td className={styles.tableunactive}>780</td>
                         <td className={styles.tableunactive}>402</td>
                         <td className={styles.tableunactive}>1012</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-42/Стандарт</th>
+                        <th className={styles.tableActiveMain}>M-42/Standard</th>
                         <td className={styles.tableunactive}>1170</td>
                         <td className={styles.tableunactive}>320</td>
                         <td className={styles.tableunactive}>1270</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-42/Тяжелая</th>
+                        <th className={styles.tableActiveMain}>M-42/Heavy</th>
                         <td className={styles.tableunactive}>1170</td>
                         <td className={styles.tableunactive}>363</td>
                         <td className={styles.tableunactive}>1313</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-42/Супертяжелая</th>
+                        <th className={styles.tableActiveMain}>M-42/Super Heavy</th>
                         <td className={styles.tableunactive}>1170</td>
                         <td className={styles.tableunactive}>426</td>
                         <td className={styles.tableunactive}>1376</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-62/Стандарт</th>
+                        <th className={styles.tableActiveMain}>M-62/Standard</th>
                         <td className={styles.tableunactive}>1650</td>
                         <td className={styles.tableunactive}>420</td>
                         <td className={styles.tableunactive}>1500</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-62/Тяжелая</th>
+                        <th className={styles.tableActiveMain}>M-62/Heavy</th>
                         <td className={styles.tableunactive}>1650</td>
                         <td className={styles.tableunactive}>479</td>
                         <td className={styles.tableunactive}>1559</td>
                     </tr>
                     <tr>
-                        <th className={styles.tableActiveMain}>М-62/Супертяжелая</th>
+                        <th className={styles.tableActiveMain}>M-62/Super Heavy</th>
                         <td className={styles.tableunactive}>1650</td>
                         <td className={styles.tableunactive}>502</td>
                         <td className={styles.tableunactive}>1582</td>
