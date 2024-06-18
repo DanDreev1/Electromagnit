@@ -21,7 +21,7 @@ export default function Footer() {
             <div className={style.container}>
                 <div className={style.margin}>
                     <Image src="/Logo.png" alt="Logo ElectroMagnit" width={200} height={500} className={style.footerLogo} loading="eager" priority/>
-                    <p className={style.copyright}>©2024 all rights reserved <br /><Link href="mailto:daniilandrieiev788@gmail.com">Создал сайт: Даниил Андреев</Link></p>
+                    <p className={style.copyright}>©2024 all rights reserved <br /><Link href="mailto:daniilandrieiev788@gmail.com">Website created by: Daniil Andrieiev</Link></p>
                 </div>
                 <div className={style.margin}>
                     <div className='flex justify-between'>
