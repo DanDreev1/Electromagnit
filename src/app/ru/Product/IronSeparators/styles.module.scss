@@ -1,0 +1,326 @@
+$primary-color: #000;
+$secondary-color: #FFD600;
+$text: #fff;
+$active: #D9D9D9;
+$subtitle: #FF7A00;
+
+.container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 50px auto;
+}
+.span {
+    font-size: 16px;
+    font-weight: 700;
+}
+.link {
+    color: $primary-color;
+}
+.title {
+    font-size: 30px;
+    font-weight: 900;
+}
+.subtitle {
+    font-size: 28px;
+    font-weight: 900;
+}
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+// OlList
+
+.olmenu {
+    padding: 0;
+    margin: 30px 20px;
+}
+.ollist {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #000 solid 3px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+// UlList
+.menu {
+    margin: 50px 0 50px 50px;
+}
+.list {
+    list-style: square;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+}
+.secondLevel {
+    list-style: none;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+}
+
+// Table
+.table {
+    width: 100%;
+
+    margin: 50px 0;
+}
+.secondtable {
+    width: 70%;
+
+    margin: 50px 0;
+}
+.thirdtable {
+    width: 50%;
+
+    margin: 50px 0;
+}
+.tableActiveMain {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: $active;
+
+    border: 1px solid #000;
+}
+.tableActiveSubmain {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: $active;
+
+    border: 1px solid #000;
+}
+.tableunactive {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 40px;
+
+    border: 1px solid #000;
+}
+
+// Span
+.statement {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(47, 255, 68, 0.8);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/statement.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
+.question {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(47, 252, 255, 0.496);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/question.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
+.exclamacion {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 100px;
+    margin: 15px 0;
+    border-radius: 15px;
+    background-color: rgba(247, 171, 49, 0.184);
+
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 40px;
+
+        background-image: url('/exclamacion.png');
+        background-repeat: no-repeat;
+        background-position: left;
+
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .tableActiveSubmain {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .tableActiveMain {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .tableunactive {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .menu {
+        margin: 30px 0 30px 30px;
+    }
+    .list {
+        font-size: 18px;
+    }
+    .secondLevel {
+        font-size: 18px;
+    }
+
+    .title {
+        font-family: 'Montserrat', serif;
+        font-size: 24px;
+        font-weight: 900;
+        margin-top: 15px;
+    }
+    .subtitle {
+        font-family: 'Montserrat', serif;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .table {
+        margin: 30px 0;
+    }
+    .secondtable {
+   
+        margin: 30px 0;
+    }
+    .thirdtable {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .tableActiveSubmain {
+        font-size: 14px;
+    }
+    .tableActiveMain {
+        font-size: 14px;
+    }
+    .tableunactive {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 16px;
+    }
+    .span {
+        font-size: 14px;
+    }
+
+    .menu {
+        margin: 30px 0 30px 30px;
+    }
+    .list {
+        font-size: 14px;
+    }
+    .secondLevel {
+        font-size: 14px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .olmenu {
+        padding: 0;
+        margin: 20px 0;
+    }
+    .ollist {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 20px;
+    
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: #000 solid 3px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+    .statement {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
+    }
+    .question {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
+    }
+    .exclamacion {
+        font-size: 14px;
+        padding: 20px 50px;
+        &::before {
+            left: 7px;
+        }
+    }
+}

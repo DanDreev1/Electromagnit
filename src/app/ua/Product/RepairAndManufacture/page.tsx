@@ -1,4 +1,4 @@
-import ReadMore from "@/app/components/ReadMore"
+import ReadMore from "@/app/ua/components/ReadMore"
 import styles from "./styles.module.scss"
 
 export default function Electromagnit() {

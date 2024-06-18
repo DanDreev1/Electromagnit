@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Loading from "./loading";
 import { Suspense } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { montserrat } from "../utils/fonts";
 
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
+    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
     authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
             template: '%s - Electromanit'
         },
         description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
-        url: 'https://electromagnit.vercel.app/ua',
+        url: 'https://electromagnit.vercel.app/ua/Main',
         siteName: 'Electromanit',
         
         images: [

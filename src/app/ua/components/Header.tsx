@@ -5,7 +5,7 @@ import Link from "next/link";
 import style from "./header.module.scss"
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { montserrat } from "../utils/fonts";
+import { montserrat } from "../../utils/fonts";
 
 const navLinks = [
     {name: "Головна", href: "/ua/Main"},
@@ -77,7 +77,7 @@ export default function Header() {
                             </button>
                         </div>
                         <span className={`${montserrat} ${style.questions}`}>З питаннями дзвоніть:<br />+4471234567890</span>
-                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="#">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="../ru">Русский</Link> / <Link className={style.languageLink} href="#">English</Link></span>
                     </div>
                 </div>
                 {isClick && (

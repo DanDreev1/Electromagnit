@@ -7,7 +7,7 @@ import { montserrat_alternate } from "@/app/utils/fonts";
 export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
+    keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
     authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
