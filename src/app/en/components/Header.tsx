@@ -8,10 +8,10 @@ import { useState } from "react";
 import { montserrat } from "../../utils/fonts";
 
 const navLinks = [
-    { name: "Главная", href: "/en/Main" },
-    { name: "Продукт", href: "/en/Product" },
-    { name: "О нас", href: "/en/About" },
-    { name: "Контакты", href: "/en/Contacts" },
+    { name: "Home", href: "/en/Main" },
+    { name: "Product", href: "/en/Product" },
+    { name: "About us", href: "/en/About" },
+    { name: "Contacts", href: "/en/Contacts" },
 ];
 
 export default function Header() {
