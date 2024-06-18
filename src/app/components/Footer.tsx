@@ -1,6 +1,5 @@
 'use client'
 
-import { url } from 'inspector';
 import style from './Footer.module.scss'
 import Image from 'next/image';
 import Link from 'next/link';
