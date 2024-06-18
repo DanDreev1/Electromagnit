@@ -77,7 +77,7 @@ export default function Header() {
                             </button>
                         </div>
                         <span className={`${montserrat} ${style.questions}`}>С вопросами звоните:<br />+4471234567890</span>
-                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="../ua">Українська</Link> / <Link className={style.languageLink} href="#">English</Link></span>
+                        <span className={`${montserrat} ${style.language}`}><Link className={style.languageLink} href="../ua/Main">Українська</Link> / <Link className={style.languageLink} href="#">English</Link></span>
                     </div>
                 </div>
                 {isClick && (

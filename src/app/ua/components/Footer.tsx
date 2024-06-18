@@ -60,7 +60,7 @@ export default function Footer() {
                         </button>
                     </div>
                     <div className={isSecondClick ? "visible" : "hidden"}>
-                        <Link className={style.footerLink} href="../../../ua">Головна</Link>
+                        <Link className={style.footerLink} href="../../../ua/Main">Головна</Link>
                         <Link className={style.footerLink} href="../../../ua/Product">Продукт</Link>
                         <Link className={style.footerLink} href="../../../ua/About">Про нас</Link>
                         <Link className={style.footerLink} href="../../../ua/Contacts">Контакти</Link>

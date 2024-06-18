@@ -60,10 +60,10 @@ export default function Footer() {
                         </button>
                     </div>
                     <div className={isSecondClick ? "visible" : "hidden"}>
-                        <Link className={style.footerLink} href="../../../ua">Главная</Link>
-                        <Link className={style.footerLink} href="../../../ua/Product">Продукт</Link>
-                        <Link className={style.footerLink} href="../../../ua/About">О нас</Link>
-                        <Link className={style.footerLink} href="../../../ua/Contacts">Контакты</Link>
+                        <Link className={style.footerLink} href="../../../ru/Main">Главная</Link>
+                        <Link className={style.footerLink} href="../../../ru/Product">Продукт</Link>
+                        <Link className={style.footerLink} href="../../../ru/About">О нас</Link>
+                        <Link className={style.footerLink} href="../../../ru/Contacts">Контакты</Link>
                     </div>
                 </div>
                 <div className={style.margin}>
