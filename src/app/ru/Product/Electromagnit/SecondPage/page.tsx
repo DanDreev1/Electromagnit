@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
     keywords: ['Электромагнит', 'Системы управления', 'Железоотделители', 'Ремонт и изготовление запасных частей электромагнитов', 'Electromagnit', 'Грузоподъемные электромагниты'],
-    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -15,22 +15,13 @@ export const metadata: Metadata = {
         telephone: true,
     },
 
-    title: "ЕМГ 165-42/А, ЕМГ 165-42/М",
+    title: "ЭМГ 165-42/А, ЭМГ 165-42/М",
     description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-
-    metadataBase: new URL('https://electromagnit.vercel.app/ua/Product/Electromagnit/SecondPage'),
-    alternates: {
-      canonical: '/ua',
-      languages: {
-        'en-GB': '/en',
-        'ru-RU': '/ru',
-      },
-    },
     
     openGraph: {
-        title: "ЕМГ 165-42/А, ЕМГ 165-42/М",
+        title: "ЭМГ 165-42/А, ЭМГ 165-42/М",
         description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-        url: 'https://electromagnit.vercel.app/ua/Product/Electromagnit/SecondPage',
+        url: 'https://electromagnit.vercel.app/ru/Product/Electromagnit/SecondPage',
         siteName: 'Electromanit',
         
         images: [

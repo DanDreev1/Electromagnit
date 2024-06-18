@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
     
     openGraph: {
-        title: "ЕМЖС",
+        title: "ЕМП",
         description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
         url: 'https://electromagnit.vercel.app/ua/Product/IronSeparators/SecondPage',
         siteName: 'Electromanit',

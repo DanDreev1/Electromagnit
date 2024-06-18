@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
     keywords: ['Електромагніт', 'Системи керування', 'Залізовідділювачі', 'Залізовідділювачі', 'Ремонт та виготовлення запасних частин електромагнітів', 'Electromagnit', 'Вантажопідйомні електромагніти'],
-    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -16,21 +16,12 @@ export const metadata: Metadata = {
     },
 
     title: "ПН-500",
-    description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
-
-    metadataBase: new URL('https://electromagnit.vercel.app/ua/Product/ControlSystems/ThirdPage'),
-    alternates: {
-      canonical: '/ua',
-      languages: {
-        'en-GB': '/en',
-        'ru-RU': '/ru',
-      },
-    },
+    description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
     
     openGraph: {
         title: "ПН-500",
-        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
-        url: 'https://electromagnit.vercel.app/ua/Product/ControlSystems/ThirdPage',
+        description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
+        url: 'https://electromagnit.vercel.app/ru/Product/ControlSystems/ThirdPage',
         siteName: 'Electromanit',
         
         images: [
@@ -60,7 +51,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Electomagnit',
-        description: 'Найкращі вантажні електромагніти для будь-яких потреб. Дізнайтеся більше про наші продукти та послуги.',
+        description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
         // creator: '@nextjs',
         // creatorId: '1467726470533754880',
         images: ['https://electromagnit.vercel.app/Electromagnit 2.jpg'], // Must be an absolute URL

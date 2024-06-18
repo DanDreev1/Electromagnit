@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
     keywords: ['Электромагнит', 'Системы управления', 'Железоотделители', 'Ремонт и изготовление запасных частей электромагнитов', 'Electromagnit', 'Грузоподъемные электромагниты'],
-    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -15,22 +15,13 @@ export const metadata: Metadata = {
         telephone: true,
     },
 
-    title: 'Контакти',
+    title: 'Контакты',
     description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-
-    metadataBase: new URL('https://electromagnit.vercel.app/ua/Contacts'),
-    alternates: {
-      canonical: '/ua',
-      languages: {
-        'en-GB': '/en',
-        'ru-RU': '/ru',
-      },
-    },
     
     openGraph: {
-        title: 'Контакти',
+        title: 'Контакты',
         description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-        url: 'https://electromagnit.vercel.app/ua/Contacts',
+        url: 'https://electromagnit.vercel.app/ru/Contacts',
         siteName: 'Electromanit',
         
         images: [
@@ -88,7 +79,7 @@ export default async function Contacts() {
     return (
         <div className={style.container}>
             <h1 className={style.title}>Контакты</h1>
-            <h2>“Electro Magnit”</h2>
+            <h2>“ElectroMagnit”</h2>
             <h3>Наши контакты:</h3>
             <ul className={style.menu}>
                 <li className={style.box}>

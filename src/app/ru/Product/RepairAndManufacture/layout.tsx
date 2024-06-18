@@ -4,7 +4,7 @@ export const metadata: Metadata = {
     applicationName: 'Electromagnit',
     referrer: 'origin-when-cross-origin',
     keywords: ['Электромагнит', 'Системы управления', 'Железоотделители', 'Ремонт и изготовление запасных частей электромагнитов', 'Electromagnit', 'Грузоподъемные электромагниты'],
-    authors: [{ name: 'Сергій', url: 'mailto:europlastic2018@gmail.com' }],
+    authors: [{ name: 'Сергей', url: 'mailto:europlastic2018@gmail.com' }],
     creator: 'Daniil Andrieiev',
     formatDetection: {
         email: true,
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     
     openGraph: {
         title: {
-            default: 'Ремонт та виготовлення',
-            template: "Ремонт та виготовлення | %s"
+            default: 'Ремонт и изготовление',
+            template: "Ремонт и изготовление | %s"
         },
         description: 'Лучшие грузовые электромагниты для любых нужд. Узнайте больше о наших продуктах и ​​услугах.',
-        url: 'https://electromagnit.vercel.app/ua/Product/RepairAndManufacture',
+        url: 'https://electromagnit.vercel.app/ru/Product/RepairAndManufacture',
         siteName: 'Electromanit',
         
         images: [
