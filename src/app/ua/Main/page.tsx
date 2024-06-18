@@ -97,7 +97,7 @@ export default async function Home() {
                             <p>Electromagnit - це розробка вантажних електромагнітів, що охоплює ринки СНГ і Європи.</p>
                             <Link className={styles.button} href="../ua/Contacts">Зв'яжіться з нами</Link>
                         </div>
-                        <Image className={styles.image} src='/HeroImg.jpg' alt='electromagnets for sheet steel' width={500} height={200} loading="eager" priority></Image>
+                        <Image className={styles.image} src='/HeroImg.jpg' alt='electromagnets for sheet steel' width={500} height={200} priority></Image>
                     </div>
                 </div>
             </section>
