@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Product</a> {'>'} Control Systems</span>
-            <h1 className={styles.title}>Control Systems</h>
+            <h1 className={styles.title}>Control Systems</h1>
             <ReadMore 
                 title="Iron Separator Control System PN-500-ZH"
                 image="/Control System 1.jpg"

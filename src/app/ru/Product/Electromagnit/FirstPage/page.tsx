@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../Electromagnit">Электромагнит</Link> {'>'} M22, M42, M62, M63</span>
-            <h1 className={styles.title}>М22, М42, М62, М63 — Модернизированные электромагниты с увеличенной грузоподъемностью</h>
+            <h1 className={styles.title}>М22, М42, М62, М63 — Модернизированные электромагниты с увеличенной грузоподъемностью</h1>
             <div className="flex my-8">
                 <span className="mr-10 text-gray-600 text-sm">На чтение: 2 мин</span>
                 <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>

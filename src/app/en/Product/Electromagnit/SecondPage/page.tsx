@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Product</Link> {'>'} <Link className={styles.link} href="../Electromagnit">Electromagnet</Link> {'>'} EMG 165-42/A, EMG 165-42/M</span>
-            <h1 className={styles.title}>Heavy-Duty Electromagnets EMG 165-42/A, EMG 165-42/M</h>
+            <h1 className={styles.title}>Heavy-Duty Electromagnets EMG 165-42/A, EMG 165-42/M</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">Read time: 2 min</span>
                 <span className="text-gray-600 text-sm">Published: 07/06/2024</span>

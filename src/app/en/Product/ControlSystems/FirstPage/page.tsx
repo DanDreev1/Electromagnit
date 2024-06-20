@@ -82,7 +82,7 @@ export default function Page() {
                 <Link className={styles.link} href="../ControlSystems">Control Systems</Link> {'>'} 
                 PN-500-ZH
             </span>
-            <h1 className={styles.title}>Control System for Iron Separators PN-500-ZH</h1>
+            <h2 className={styles.title}>Control System for Iron Separators PN-500-ZH</h2>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">Read Time: 2 mins</span>
                 <span className="text-gray-600 text-sm">Published: 07/06/2024</span>
