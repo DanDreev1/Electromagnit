@@ -5,7 +5,7 @@ import style from "./styles.module.scss"
 export default function Product() {
     return (
         <div className={style.container}>
-            <h2 className={style.product}>У нас есть возможности и силы, чтобы удивить вас нашей продукции. Вы можете посмотреть на каждую из них</h2>
+            <h1 className={style.product}>У нас есть возможности и силы, чтобы удивить вас нашей продукции. Вы можете посмотреть на каждую из них</h1>
             <ul className={style.menu}>
                 <li className={style.list}>
                     <Link href="Product/Electromagnit" className={style.link}>

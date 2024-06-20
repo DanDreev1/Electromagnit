@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../RepairAndManufacture">Ремонт и изготовление</Link> {'>'} Ремонт электромагнитов</span>
-            <h2 className={styles.title}>Ремонт электромагнитов</h2>
+            <h1 className={styles.title}>Ремонт электромагнитов</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">На чтение: 1 мин</span>
                 <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>

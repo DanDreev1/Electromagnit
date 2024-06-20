@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Продукт</a> {'>'} Железоотделители</span>
-            <h2 className={styles.title}>Железоотделители</h2>
+            <h1 className={styles.title}>Железоотделители</h1>
             <ReadMore 
                 title="Железоотделители электромагнитные саморазгрузочные (ЭМЖС)"
                 image="/Iron Separators 1.jpg"

@@ -80,7 +80,7 @@ export default function Page() {
                 <span className={styles.span}>
                     <Link className={styles.link} href="../../Product">Product</Link> {'>'} <Link className={styles.link} href="../ControlSystems">Control Systems</Link> {'>'} PN-500-G
                 </span>
-                <h2 className={styles.title}>Generator Control Systems for Electromagnets (PN-500-G)</h2>
+                <h1 className={styles.title}>Generator Control Systems for Electromagnets (PN-500-G)</h1>
                 <div className="flex my-10">
                     <span className="mr-10 text-gray-600 text-sm">Read Time: 2 mins</span>
                     <span className="text-gray-600 text-sm">Published: 07/06/2024</span>

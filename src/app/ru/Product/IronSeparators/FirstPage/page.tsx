@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../IronSeparators">Железоотделители</Link> {'>'} ЭМЖС</span>
-            <h2 className={styles.title}>Железоотделители электромагнитные саморазгрузочные (ЭМЖС)</h2>
+            <h1 className={styles.title}>Железоотделители электромагнитные саморазгрузочные (ЭМЖС)</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">На чтение: 1 мин</span>
                 <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>

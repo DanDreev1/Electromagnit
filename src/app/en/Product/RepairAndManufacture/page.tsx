@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Product</a> {'>'} Repair and Manufacture</span>
-            <h2 className={styles.title}>Repair and Manufacture of Electromagnet Spare Parts</h2>
+            <h1 className={styles.title}>Repair and Manufacture of Electromagnet Spare Parts</h1>
             <ReadMore 
                 title="Repair of lifting electromagnets of foreign and domestic production"
                 image="/Repair and manufacture 1.jpg"

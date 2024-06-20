@@ -87,7 +87,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../ControlSystems">Системи керування</Link> {'>'} ПН-500</span>
-            <h2 className={styles.title}>Перетворювач напруги ПН-500</h2>
+            <h1 className={styles.title}>Перетворювач напруги ПН-500</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">На читання: 3 хв</span>
                 <span className="text-gray-600 text-sm">Опубліковано: 07/06/2024</span>

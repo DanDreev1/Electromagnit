@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Product</a> {'>'} Iron Separators</span>
-            <h2 className={styles.title}>Iron Separators</h2>
+            <h1 className={styles.title}>Iron Separators</h1>
             <ReadMore 
                 title="Self-unloading electromagnetic iron separators (EMIS)"
                 image="/Iron Separators 1.jpg"

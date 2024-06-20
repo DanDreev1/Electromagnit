@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Product</a> {'>'} Electromagnet</span>
-            <h2 className={styles.title}>Lifting Electromagnets</h2>
+            <h1 className={styles.title}>Lifting Electromagnets</h1>
             <ReadMore 
                 title="M22, M42, M62, M63 — Modernized Electromagnets with Increased Lifting Capacity"
                 image="/Electromagnit 1.jpg"

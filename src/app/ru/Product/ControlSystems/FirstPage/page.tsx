@@ -82,7 +82,7 @@ export default function Page() {
                 <Link className={styles.link} href="../ControlSystems">Системы управления</Link> {'>'} 
                 ПН-500-Ж
             </span>
-            <h2 className={styles.title}>Система управления залезоотделителем ПН-500-Ж</h2>
+            <h1 className={styles.title}>Система управления залезоотделителем ПН-500-Ж</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">На чтение: 2 мин</span>
                 <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>

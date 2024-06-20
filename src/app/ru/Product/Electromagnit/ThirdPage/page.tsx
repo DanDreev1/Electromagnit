@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Продукт</Link> {'>'} <Link className={styles.link} href="../Electromagnit">Электромагнит</Link> {'>'} ЭМГ 117-39/А, ЭМГ 117-39/М</span>
-            <h2 className={styles.title}>Электромагниты грузоподъемные средней серии ЭМГ 117-39/А, ЭМГ 117-39/М</h2>
+            <h1 className={styles.title}>Электромагниты грузоподъемные средней серии ЭМГ 117-39/А, ЭМГ 117-39/М</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">На чтение: 2 мин</span>
                 <span className="text-gray-600 text-sm">Опубликовано: 07/06/2024</span>

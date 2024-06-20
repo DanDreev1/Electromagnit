@@ -5,7 +5,7 @@ export default function Electromagnit() {
     return (
         <div className={styles.container}>
             <span className={styles.span}><a className={styles.link} href="../Product">Продукт</a> {'>'} Системи керування</span>
-            <h2 className={styles.title}>Системи керування</h2>
+            <h1 className={styles.title}>Системи керування</h1>
             <ReadMore 
                 title="Система керування залізовідділювачем ПН-500-Ж"
                 image="/Control System 1.jpg"

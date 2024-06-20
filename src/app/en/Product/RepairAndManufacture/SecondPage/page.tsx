@@ -78,7 +78,7 @@ export default function Page() {
     return (
         <section className={styles.container}>
             <span className={styles.span}><Link className={styles.link} href="../../Product">Product</Link> {'>'} <Link className={styles.link} href="../RepairAndManufacture">Repair and Manufacture</Link> {'>'} Repair of Electromagnets</span>
-            <h2 className={styles.title}>Repair of Electromagnets</h2>
+            <h1 className={styles.title}>Repair of Electromagnets</h1>
             <div className="flex my-10">
                 <span className="mr-10 text-gray-600 text-sm">Read time: 1 min</span>
                 <span className="text-gray-600 text-sm">Published: 06/07/2024</span>
