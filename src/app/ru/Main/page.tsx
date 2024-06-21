@@ -86,7 +86,7 @@ export default async function Home() {
                         <div className={styles.box}>
                             <h2 className={`${montserrat_alternate}`}>Мы рады приветствовать вас на сайте нашего предприятия!</h2>
                             <p>Electromagnit занимается разработкой грузоподъемных электромагнитов и активно работает на рынках СНГ и Европы.</p>
-                            <Link className={styles.button} href="../ua/Contacts">Свяжитесь с нами</Link>
+                            <Link className={styles.button} href="../ru/Contacts">Свяжитесь с нами</Link>
                         </div>
                         <Image className={styles.image} src='/HeroImg.jpg' alt='электромагниты для листовой стали' width={500} height={200} priority></Image>
                     </div>
@@ -111,7 +111,7 @@ export default async function Home() {
                                 <Image src='/electromagnet.jpg' alt="Изображение электромагнита" width={275} height={205} loading="eager"></Image>
                                 <h3>Электромагниты</h3>
                                 <p>Поставка грузоподъемных электромагнитов различной конфигурации</p>
-                                <Link className={styles.learn} href="../../../ua/Product/Electromagnit">Узнать больше</Link>
+                                <Link className={styles.learn} href="../../../ru/Product/Electromagnit">Узнать больше</Link>
                             </div>
                         </li>
                         <li>
@@ -119,7 +119,7 @@ export default async function Home() {
                                 <Image src='/control-system.jpg' alt="Изображение системы управления" width={275} height={205} loading="eager"></Image>
                                 <h3>Системы управления</h3>
                                 <p>Системы управления электромагнитами: генераторные, на основе преобразователей ПН-500</p>
-                                <Link className={styles.learn} href="../../../ua/Product/ControlSystems">Узнать больше</Link>
+                                <Link className={styles.learn} href="../../../ru/Product/ControlSystems">Узнать больше</Link>
                             </div>
                         </li>
                         <li>
@@ -127,7 +127,7 @@ export default async function Home() {
                                 <Image src='/Iron-separators.jpg' alt="Изображение железоотделителей" width={275} height={205} loading="eager"></Image>
                                 <h3>Железоотделители</h3>
                                 <p>Магнитные железоотделители разных серий с подробными характеристиками и описанием</p>
-                                <Link className={styles.learn} href="../../../ua/Product/IronSeparators">Узнать больше</Link>
+                                <Link className={styles.learn} href="../../../ru/Product/IronSeparators">Узнать больше</Link>
                             </div>
                         </li>
                         <li>
@@ -135,7 +135,7 @@ export default async function Home() {
                                 <Image src='/Repair.jpg' alt="Изображение ремонта и производства" width={275} height={205} loading="eager"></Image>
                                 <h3>Ремонт и изготовление</h3>
                                 <p>Сервисное обслуживание электромагнитов и их комплектующих. Изготовим по заказу шестерни и т.д.</p>
-                                <Link className={styles.learn} href="../../../ua/Product/RepairAndManufacture">Узнать больше</Link>
+                                <Link className={styles.learn} href="../../../ru/Product/RepairAndManufacture">Узнать больше</Link>
                             </div>
                         </li>
                     </ul>
@@ -150,7 +150,7 @@ export default async function Home() {
                         </div>
                         <div className={styles.box}>
                             <h3 className={`${montserrat_alternate}`}>Свяжитесь с нами и мы изготовим для вас деталь на заказ</h3>
-                            <Link className={styles.button} href="../ua/Contacts">Свяжитесь с нами</Link>
+                            <Link className={styles.button} href="../ru/Contacts">Свяжитесь с нами</Link>
                         </div>
                     </div>
                 </div>
